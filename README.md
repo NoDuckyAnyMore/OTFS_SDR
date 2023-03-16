@@ -10,6 +10,7 @@ The orthogonal time frequency space (OTFS) technique is a promising modulation s
 ![figure](./figures/OTFS.png)
 
 ## System Model
+![figure](./figures/hardware.png)
 The first transceiver are control by MATLAB respectively, there is a LABVIEW-version transceiver control code.
 ![figure](./figures/system.jpg)
 
