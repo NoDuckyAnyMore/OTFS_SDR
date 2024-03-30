@@ -2,7 +2,7 @@
 This is a code package for WCNC 2023 conference paper "SDR System Design and Implementation on Delay-Doppler Communications and Sensing"
 
 
-_Only SDR transceiver and signal generation design is giving in this project, the channel estimation and signal detection are given in the other project!_
+_Only SDR transceiver and signal generation design is given in this project, the channel estimation and signal detection are given in the other project!_
 
 ## Introduction
 The orthogonal time frequency space (OTFS) technique is a promising modulation scheme with great advantages in channel delay and Doppler shifts. OTFS technique adopts a novel two-dimensional (2D) modulation technique that encodes information symbols in the delay-Doppler (DD) domain instead of the conventional time-frequency (TF) domain
