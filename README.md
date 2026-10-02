@@ -1,5 +1,5 @@
 # OTFS SDR Implementation with Channel Emulator
-This is a code package for WCNC 2023 conference paper "SDR System Design and Implementation on Delay-Doppler Communications and Sensing"
+This repository accompanies our early work on OTFS-based SDR communications and sensing, presented at IEEE WCNC 2023: [**SDR System Design and Implementation on Delay-Doppler Communications and Sensing**](https://doi.org/10.1109/WCNC55385.2023.10118889).
 
 
 _Only SDR transceiver and signal generation design is given in this project, the channel estimation and signal detection are given in the other project!_
@@ -36,6 +36,22 @@ Finally giving some post-processing then transmit the signal to the wireless cha
 ![figure](./figures/emulator.png)
 Emulated result
 ![figure](./figures/emulated%20result.png)
+
+## Cite This Work
+
+We welcome researchers to use and build upon this implementation. If you use this code or draw on the system design in your research, please cite our WCNC 2023 paper:
+
+> X. Wei, L. Zhang, W. Yuan, F. Liu, S. Li, and Z. Wei, "SDR System Design and Implementation on Delay-Doppler Communications and Sensing," in *2023 IEEE Wireless Communications and Networking Conference (WCNC)*, 2023, doi: [10.1109/WCNC55385.2023.10118889](https://doi.org/10.1109/WCNC55385.2023.10118889).
+
+```bibtex
+@inproceedings{wei2023otfssdr,
+  author    = {Xinyuan Wei and Lingyan Zhang and Weijie Yuan and Fan Liu and Shuangyang Li and Zhiqiang Wei},
+  title     = {{SDR} System Design and Implementation on Delay-Doppler Communications and Sensing},
+  booktitle = {2023 IEEE Wireless Communications and Networking Conference (WCNC)},
+  year      = {2023},
+  doi       = {10.1109/WCNC55385.2023.10118889}
+}
+```
 
 ## Codes Citation
 - N. Hashimoto, N. Osawa, K. Yamazaki and S. Ibi, "[*Channel Estimation and Equalization for CP-OFDM-based OTFS in Fractional Doppler Channels*](https://ieeexplore.ieee.org/abstract/document/9473532)," 2021 IEEE International Conference on Communications Workshops (ICC Workshops), 2021, pp. 1-7, doi: 10.1109/ICCWorkshops50388.2021.9473532.
